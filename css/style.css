@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+}
+/* Header start */
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    
+}
+.header-top a{
+text-decoration: none;
+padding-left: 40px;
+}
+
+.header-bottom{
+    display: flex;
+ justify-content: space-between;
+ padding: 30px 0px; 
+ align-items: center;  
+}
+.header-bottom .logo, nav{
+    display: flex;
+
+}
+.header-bottom a{
+   text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+}
+.header-bottom .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid none;
+    border-radius: 50%;
+    color: white;
+    background-color: #2C2B5E;
+}
+/* Header end */
+
+/* Main-services start */
+.services{
+    padding: 100px 0;
+}
+.services .service{
+    padding: 35px 40px;
+    box-shadow: 0 0 3px  rgb(210, 208, 208);
+}
+
+
+/* Main-services end */
+
+/* Main-welcome start */
+
+.welcome{
+    padding: 100px 150px;
+
+}
+
+.welcome .label{
+    display: flex;
+font-size: 20px;
+}
+.welcome .lorem{
+    margin: 0;
+    color: gray;
+}
+.welcome .label .name{
+    margin-left: 20px;
+    color: red;
+}
+.welcome .button{
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.welcome .container img{
+    border: 10px solid rgb(226, 223, 223);
+    width: 100%;
+    height: 350px;
+}
+
+/* Main-welcome end */
+
+/* Main-courses start */
+.courses{
+    background: linear-gradient(to bottom, rgba(44, 43, 94, 0.92) 0%, rgba(44, 43, 94, 0.92) 100%), url(/image/bg1.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+.courses .head{
+ padding: 150px 0px 30px 0px;
+    text-align: center;
+    color: white;
+}
+
+.courses .card{
+    width: 100%;
+    border: 1px solid white;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 150px;
+}
+.courses .head img{
+    width: 50px;
+   
+}
+.courses .card img{
+    width: 100%;
+    height: 270px;
+   
+}
+.courses .body{
+    padding: 30px;
+}
+.courses .button{
+  
+    border: 1px solid red;
+   display: inline-block;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 6px 15px;
+    margin-top: 15px;
+    
+}
+/* Main courses end */
+
+/* Notice start */
+.notice{
+    padding-top: 150px;
+    display: flex;
+    
+}
+.notice .i img{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+}
+.notice .i .icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.notice .board{
+    box-shadow: 0px 0px 2px gray;
+    overflow-y: scroll;
+    height: 400px;
+    
+}
+.notice .board .info{
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    margin: 30px 60px;
+}
+.notice .info .date{
+    color: red;
+    font-weight: bold;
+}
+.notice .col-6 .title{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #2C2B5E;
+    font-weight: bold;
+}
+
+
+/* Slider start */
+
+.slider{
+    height: 100vh;
+    width: 100%;
+}
+.carousel-inner{
+    position: relative;
+
+}
+
+.slider .carousel-item .bg{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+}
+
+
+
+
+
+.slider .carousel-item .bg .shadow{
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+.slider .carousel-item .carousel-caption{
+    bottom: 37% ;
+    
+}
+/* Slider end */
+
+/* Events start */
+
+.events{
+    padding: 150px;
+    text-align: center;
+}
+.events .title{
+    margin-bottom: 10px;
+}
+.events .product1, .product2{
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 0 5px rgb(185, 176, 176);
+    overflow: hidden;
+    background-color: white;
+   display: flex;
+   text-align: start;
+   margin: 40px 30px;
+   
+   
+}
+.events .text{
+    padding: 30px;
+}
+.events .contact i{
+    padding-right: 10px;
+}
+.events .contact .time{
+    padding-right: 10px;
+}
+.events .text .contact{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.events .subtitle{
+    color: gray;
+    font-weight: bold;
+}
+.events .button{
+    border: 1px solid rgb(216, 215, 215);
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+/* Events end */
